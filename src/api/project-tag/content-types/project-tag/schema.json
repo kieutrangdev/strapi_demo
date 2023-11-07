@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "project_tags",
+  "info": {
+    "singularName": "project-tag",
+    "pluralName": "project-tags",
+    "displayName": "Tag",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "project_count": {
+      "type": "integer"
+    },
+
+    "alias": {
+      "type": "uid",
+      "targetField": "name",
+      "required": true
+    },
+  
+    "agency_count": {
+      "type": "integer"
+    }
+  }
+}

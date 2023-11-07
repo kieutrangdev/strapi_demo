@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "history_downloads",
+  "info": {
+    "singularName": "history-download",
+    "pluralName": "history-downloads",
+    "displayName": "History Download",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+   
+    "user_id": {
+      "type": "integer"
+    }
+  }
+}

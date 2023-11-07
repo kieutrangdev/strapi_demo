@@ -1,0 +1,78 @@
+{
+  "kind": "collectionType",
+  "collectionName": "agencies",
+  "info": {
+    "singularName": "agency",
+    "pluralName": "agencies",
+    "displayName": "Agency",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "website": {
+      "type": "string"
+    },
+    "logo": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    },
+    "review_count": {
+      "type": "integer"
+    },
+    "review_score": {
+      "type": "decimal"
+    },
+ 
+   
+   
+ 
+    "review_1star_percent": {
+      "type": "integer"
+    },
+    "review_2star_percent": {
+      "type": "integer"
+    },
+    "review_3star_percent": {
+      "type": "integer"
+    },
+    "review_4star_percent": {
+      "type": "integer"
+    },
+    "review_5star_percent": {
+      "type": "integer"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+  
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "unidentified",
+        "claimed",
+        "verified"
+      ]
+    },
+   
+    "alias": {
+      "type": "uid",
+      "targetField": "name",
+      "required": true
+    }
+   
+  }
+}

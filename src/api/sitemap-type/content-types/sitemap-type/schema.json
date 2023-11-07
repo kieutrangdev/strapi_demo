@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sitemap_types",
+  "info": {
+    "singularName": "sitemap-type",
+    "pluralName": "sitemap-types",
+    "displayName": "Sitemap Type"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "alias": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}

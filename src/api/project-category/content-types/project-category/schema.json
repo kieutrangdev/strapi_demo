@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "project_categories",
+  "info": {
+    "singularName": "project-category",
+    "pluralName": "project-categories",
+    "displayName": "Services Category",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+
+    "description": {
+      "type": "richtext"
+    },
+    "project_count": {
+      "type": "integer"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "project_source": {
+      "type": "string"
+    },
+    "filters": {
+      "type": "enumeration",
+      "enum": [
+        "public",
+        "portfolio"
+      ]
+    },
+  
+    "alias": {
+      "type": "uid",
+      "targetField": "name",
+      "required": true
+    },
+    "service_count": {
+      "type": "integer"
+    }
+  }
+}

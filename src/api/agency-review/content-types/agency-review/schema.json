@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "agency_reviews",
+  "info": {
+    "singularName": "agency-review",
+    "pluralName": "agency-reviews",
+    "displayName": "Agency Review",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "comment": {
+      "type": "richtext"
+    },
+    "user_image": {
+      "type": "string"
+    },
+    "user_name": {
+      "type": "string"
+    },
+    "user_ip": {
+      "type": "string"
+    },
+    "rating": {
+      "type": "integer"
+    },
+   
+    "title": {
+      "type": "string"
+    }
+   
+  }
+}

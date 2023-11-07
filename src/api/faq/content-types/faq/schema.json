@@ -1,0 +1,57 @@
+{
+  "kind": "collectionType",
+  "collectionName": "faqs",
+  "info": {
+    "singularName": "faq",
+    "pluralName": "faqs",
+    "displayName": "FAQ",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "question": {
+      "type": "text",
+      "required": true
+    },
+    "answer": {
+      "type": "richtext"
+    },
+   
+    "project_cat": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
+        "customField": {
+          "contentType": "mapdata"
+        }
+      },
+      "type": "json"
+    },
+    "buss_type": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
+        "customField": {
+          "contentType": "mapdata"
+        }
+      },
+      "type": "json"
+    },
+    "content_type": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
+        "customField": {
+          "contentType": "mapdata"
+        }
+      },
+      "type": "json"
+    }
+  }
+}

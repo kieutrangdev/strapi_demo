@@ -1,0 +1,62 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_profiles",
+  "info": {
+    "singularName": "user-profile",
+    "pluralName": "user-profiles",
+    "displayName": "User Profile",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "username": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "avatar": {
+      "type": "string"
+    },
+    "website": {
+      "type": "string"
+    },
+    "GitHub": {
+      "type": "string"
+    },
+    "source_link": {
+      "type": "string"
+    },
+    "user_id": {
+      "type": "integer",
+      "required": true
+    },
+    "phone": {
+      "type": "string"
+    },
+    "job_title": {
+      "type": "string"
+    },
+    "avatar_new": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "biography": {
+      "type": "text"
+    },
+    "verified": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

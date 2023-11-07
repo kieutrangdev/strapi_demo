@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "agency_addresses",
+  "info": {
+    "singularName": "agency-address",
+    "pluralName": "agency-addresses",
+    "displayName": "Agency Address",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "address": {
+      "type": "string"
+    },
+    "locality": {
+      "type": "string"
+    },
+    "postal_code": {
+      "type": "string"
+    },
+    "telephone": {
+      "type": "string"
+    }
+  
+  
+  }
+}

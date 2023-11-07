@@ -1,0 +1,73 @@
+{
+  "kind": "collectionType",
+  "collectionName": "features",
+  "info": {
+    "singularName": "feature",
+    "pluralName": "features",
+    "displayName": "Feature",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+
+    "project_cat": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
+        "customField": {
+          "contentType": "mapdata"
+        }
+      },
+      "type": "json"
+    },
+    "buss_type": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
+        "customField": {
+          "contentType": "mapdata"
+        }
+      },
+      "type": "json"
+    },
+    "content_type": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
+        "customField": {
+          "contentType": "mapdata"
+        }
+      },
+      "type": "json"
+    },
+    "alias": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    },
+    "project_count": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "history_views",
+  "info": {
+    "singularName": "history-view",
+    "pluralName": "history-views",
+    "displayName": "History View"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "user_id": {
+      "type": "integer"
+    }
+   
+  }
+}

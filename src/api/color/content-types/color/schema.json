@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "colors",
+  "info": {
+    "singularName": "color",
+    "pluralName": "colors",
+    "displayName": "Color"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "alias": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "hex": {
+      "type": "string"
+    }
+  }
+}

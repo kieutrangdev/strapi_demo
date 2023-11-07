@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "countries",
+  "info": {
+    "singularName": "country",
+    "pluralName": "countries",
+    "displayName": "Country",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "country_flag": {
+      "type": "string"
+    },
+    "alias": {
+      "type": "uid",
+      "targetField": "name",
+      "required": true
+    }
+  }
+}

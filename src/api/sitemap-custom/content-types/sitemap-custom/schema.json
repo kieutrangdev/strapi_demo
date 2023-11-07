@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sitemap_customs",
+  "info": {
+    "singularName": "sitemap-custom",
+    "pluralName": "sitemap-customs",
+    "displayName": "Sitemap Custom",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "alias": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}

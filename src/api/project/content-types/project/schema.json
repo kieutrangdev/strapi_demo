@@ -1,0 +1,179 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "singularName": "project",
+    "pluralName": "projects",
+    "displayName": "Project",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "download": {
+      "type": "string"
+    },
+    "logo": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    },
+    "screenshots": {
+      "type": "json"
+    },
+  
+    "review_count": {
+      "type": "integer",
+      "default": 0
+    },
+    "review_score": {
+      "type": "decimal",
+      "default": 0
+    },
+    "version": {
+      "type": "string"
+    },
+    "download_count": {
+      "type": "integer",
+      "default": 0
+    },
+    "developer_name": {
+      "type": "string"
+    },
+    "developer_link": {
+      "type": "string"
+    },
+  
+    "review_1star_percent": {
+      "type": "integer",
+      "default": 0
+    },
+    "review_2star_percent": {
+      "type": "integer",
+      "default": 0
+    },
+    "review_3star_percent": {
+      "type": "integer",
+      "default": 0
+    },
+    "review_4star_percent": {
+      "type": "integer",
+      "default": 0
+    },
+    "review_5star_percent": {
+      "type": "integer",
+      "default": 0
+    },
+    "price": {
+      "type": "string"
+    },
+    
+
+    "website": {
+      "type": "string"
+    },
+    "google_play": {
+      "type": "string"
+    },
+    "apple_store": {
+      "type": "string"
+    },
+    "timeline": {
+      "type": "string"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "unidentified",
+        "claimed",
+        "verified"
+      ],
+      "default": "unidentified"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "public",
+        "private",
+        "portfolio"
+      ],
+      "default": "public"
+    },
+    "feature_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "note": {
+      "type": "text"
+    },
+    "document_link": {
+      "type": "string"
+    },
+    "buy_now_link": {
+      "type": "string"
+    },
+   
+   
+
+    "map_agency_cat": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        },
+        "customField": {
+          "contentType": "mapdata"
+        }
+      },
+      "type": "json",
+      "private": true
+    },
+    "portfolio_type": {
+      "type": "enumeration",
+      "enum": [
+        "mobile app",
+        "web",
+        "design"
+      ],
+      "default": "web"
+    },
+    "show_cmsmart": {
+      "type": "boolean",
+      "default": false
+    },
+    "alias": {
+      "type": "uid",
+      "targetField": "name",
+      "required": true
+    },
+    "trendy": {
+      "type": "boolean",
+      "default": false
+    },
+    "recommended": {
+      "type": "boolean",
+      "default": false
+    },
+   
+    "short_intro": {
+      "type": "text"
+    },
+    "title": {
+      "type": "string"
+    }
+   
+  }
+}

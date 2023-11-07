@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "services_types",
+  "info": {
+    "singularName": "services-type",
+    "pluralName": "services-types",
+    "displayName": "Services Type"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}
